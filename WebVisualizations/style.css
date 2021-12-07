@@ -140,3 +140,17 @@
     border-style: solid;
     border-radius: 5px;
 }
+
+/*Zoom on hover*/
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
