@@ -26,6 +26,17 @@
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
   }
+  @media (max-width: 768px) {
+    .navbar-light.bg-white {
+        background-color: #17a2b8 !important;
+    }
+    .nav-link {
+        color: white !important;
+    }
+    #img-wrap {
+        float: none;
+    }
+ }
   .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
@@ -80,7 +91,7 @@
     filter: grayscale(100%);
   }  
   .navbar {
-    margin-bottom: 0;
+    margin-bottom: 20;
     background-color: #2d2d30;
     border: 0;
     font-size: 14px !important;
@@ -122,3 +133,10 @@
     color: #777;
     text-decoration: none;
   } 
+
+  .card-body .active {
+    border-color: #17a2b8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}

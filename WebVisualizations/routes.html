@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html">El Camino de Santiago<img src="https://www.nicepng.com/png/full/263-2635615_transparent-sea-shell-clip-art.png" alt="camino_shell" width="40" height="30" longdesc="desc.txt"/></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="data_table.html">Data</a></li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="">Plots
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="pilgrims.html">Pilgrims Stats</a></li>
+              <li><a href="gender.html">Gender Stats</a></li>
+              <li><a href="map.html">Map Stats</a></li> 
+              <li><a href="routes.html">Camino Routes Stats</a></li>
+            </ul>
+          </li>
+          <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container content">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <h3>Camino Routes Stats</h3>
+                <hr>
+                
+                <img src="assets/images/Sheet_4.png" width="100%" alt="routes data">
+                <br>
+                <p>The Pilgrims Stats shows that the population of pilgrims who walk the Camino de Santiago, grows each year. By looking at the graph, beginning in 2005, there was a steady incline, but in 2010, there was a major increase. An increase of approximately 86.5% from the year prior, 145,877 vs. 272,135 pilgrims. The reason for the surge was due to the Holy Year. According to the <a href="https://oficinadelperegrino.com/en/pilgrimage/holy-year/">Oficina del Peregrino</a>, "In the years in which the Feast of St. James (25th July) falls on a Sunday, that year is celebrated as a Holy Year. Therefore there is a Holy Year every 6, 5, 6 and 11 years. The last Holy Year was in 2010 and the next is in 2021. During Holy Years there is a considerable increase in the numbers of pilgrims to Santiago, who may enter the Cathedral by the “Holy Door” which is only opened during that year."</p>
+            </div>
+        </div>
+<!--visualization part of the page-->            
+        <div class="col-md-4">
+            <div class="col-md-12">
+                <h3>Visualizations</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-3 col-md-6">
+                        <a href="pilgrims.html"><img src="assets/images/Sheet_1.png" title="Pilgrims Stats" width="100%" alt="pilgrims data"></a>
+                    </div>
+                    
+                    <div class="col-3 col-md-6">
+                        <a href="gender.html"><img src="assets/images/Sheet_2.png" title="Gender Stats" width="100%" alt="gender data"></a>
+                    </div>
+                
+                    <div class="col-3 col-md-6">
+                        <a href="map.html"><img src="assets/images/Sheet_3.png" title="Map Stats" width="100%" alt="map data"></a>
+                    </div>
+                    
+                    <div class="col-3 col-md-6">
+                        <a href="routes.html"><img src="assets/images/Sheet_4.png" title="Camino Routes Stats" width="100%" alt="routes data"></a>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </div>    
+</div>
+
+</div>
+
+</div>
+
+<footer class="container-fluid text-center">
+<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+<span class="glyphicon glyphicon-chevron-up"></span>
+</a><br><br>
+<p>Copyright @ 2021 Villagomez </p>
+</footer>
+
+
+
+</body>
+</html>
