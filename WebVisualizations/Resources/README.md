@@ -1,10 +1,10 @@
-# Web Design Challenge - Web Visualization Dashboard (El Camino de Santiago)
+# Web Design Challenge - Web Visualization Dashboard (Latitude)
 
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-![Images/landingResize.png](WebVisualizations/Resources/Images/camino_landing.png)
+![Images/landingResize.png](WebVisualizations/Resources/Images/landingResize.png)
 
 ### Before You Begin
 
@@ -20,13 +20,15 @@ Data is more powerful when we share it with others! Let's take what we've learne
 
 6. Deploy to GitHub pages. 
 
-## El Camino de Santiago Analysis Dashboard
+## Latitude Analysis Dashboard with Attitude
 
-For this challenge we'll be creating a visualization dashboard website using visualizations we've created in a past assignment (Tableau). Specifically, we'll be plotting [Camino data](WebVisualizations/Resources/camino_de_santiago_stats2.csv).
+For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](WebVisualizations/Resources/cities.csv).
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the visualizations, and another page where we can view the data used to build them.
+In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website Requirements
+
+For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website must consist of 7 pages total, including:
 
@@ -59,7 +61,7 @@ When finished, submit to BootcampSpot the links to 1) the deployed app and 2) th
 
 ### Considerations
 
-* You may use the [weather data](WebVisualizations/Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](WebVisualizations/Resources/cities.csv) and pull the images from the [assets folder](WebVisualizations/Resources/assets/other_images).
+* You may use the [weather data](WebVisualizations/Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](WebVisualizations/Resources/cities.csv) and pull the images from the [assets folder](WebVisualizations/Resources/assets).
 * You must use bootstrap. This includes using the bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
 * You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
 * Be sure to use a CSS media query for the navigation menu.
@@ -74,15 +76,52 @@ When finished, submit to BootcampSpot the links to 1) the deployed app and 2) th
 * Use meaningful glyphicons next to links in the header.
 * Have visualization navigation on every visualizations page with an active state. See the screenshots below.
 
-### My Work
+### Screenshots
 
-While we were provided a weather dataset from a previous challenge, I chose to use a different dataset, [Camino data](WebVisualizations/Resources/camino_de_santiago_stats2.csv).
+This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
-Join me in exploring Pilgrimage data from 2004 to 2018. Data was manually collected as provided by the Oficina del Peregrino’s Statistics website. We will take a look at the total number of pilgrims over the years, gender participation, number of pilgrims per country, and the average number of pilgrims per Camino Route. The visualizations were created through Tableau. I invite you to see the profile.
+#### Landing page
 
-#### Web Developed
+Large screen:
+![Landing page large screen](WebVisualizations/Resources/Images/landing-lg.png)
 
+Small screen:
+![Landing page small screen](WebVisualizations/Resources/Images/landing-sm.png)
+￼
 
+#### Comparisons page
+
+Large screen:
+![comparison page large screen](WebVisualizations/Resources/Images/comparison-lg.png)
+
+Small screen:
+![comparison page small screen](WebVisualizations/Resources/Images/comparison-sm.png)
+
+#### Data page
+
+Large screen:
+![data page large screen](WebVisualizations/Resources/Images/data-lg.png)
+
+Small screen:
+![data page small screen](WebVisualizations/Resources/Images/data-sm.png)
+
+#### Visualization pages
+
+You'll build four of these, one for each visualization. Here's an example of one:
+
+Large screen:
+![visualize page large screen](WebVisualizations/Resources/Images/visualize-lg.png)
+
+Small screen:
+![visualize page small screen](WebVisualizations/Resources/Images/visualize-sm.png)
+
+#### Navigation menu
+
+Large screen:
+![nav menu large screen](WebVisualizations/Resources/Images/nav-lg.png)
+
+Small screen:
+![nav menu small screen](WebVisualizations/Resources/Images/nav-sm.png)
 
 ### Copyright
 
