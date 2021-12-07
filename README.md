@@ -80,9 +80,9 @@ While we were provided a weather dataset from a previous challenge, I chose to u
 
 Join me in exploring Pilgrimage data from 2004 to 2018. Data was manually collected as provided by the Oficina del Peregrino’s Statistics website. We will take a look at the total number of pilgrims over the years, gender participation, number of pilgrims per country, and the average number of pilgrims per Camino Route. The visualizations were created through Tableau. I invite you to see the profile.
 
-#### Web Developed
+### Website Developed
 
-
+https://v-villagomez.github.io/Web_Design_Challenge/WebVisualizations/
 
 ### Copyright
 
